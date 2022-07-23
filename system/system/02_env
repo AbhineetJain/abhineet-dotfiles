@@ -1,0 +1,10 @@
+export GO111MODULE=on
+export GOPATH=$HOME/go
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+export CDR=$GOPATH/src/github.com/cdr
+export M=$GOPATH/src/github.com/cdr/m
+export PATH=$PATH:$CDR/m/devbin:$HOME/system/scripts
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
+export NODE_OPTIONS=--max-old-space-size=8192
